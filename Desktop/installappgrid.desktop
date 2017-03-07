@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Get AppGrid (Software Center)
+GenericName=Get AppGrid (Software Center)
+Comment=Discover the best of Open Source in the Ubuntu archives. Complete with ratings, reviews & screenshots. 
+Icon=gnome-mime-application-x-deb
+Exec=firefox 'http://www.appgrid.org/'
+Terminal=false
+Type=Application
+Categories=System;Utility;
+MimeType=application/x-deb;application/x-debian-package;x-scheme-handler/apt;
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=software-center
+X-Unity-IconBackgroundColor=#ffbf87
+Keywords=Sources;PPA;Install;Uninstall;Remove;Purchase;Catalogue;Store;Apps;
+OnlyShowIn=XFCE;

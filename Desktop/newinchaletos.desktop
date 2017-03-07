@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=4.0
+Name=What is new in ChaletOS
+Comment=What is new in ChaletOS
+Exec=firefox 'https://sites.google.com/site/chaletoslinux/presentation'
+Icon=applications-internet
+Terminal=false
+Type=Application
+Categories=XFCE;GTK;Utility;
+StartupNotify=true
+OnlyShowIn=XFCE;
+X-XfcePluggable=true
