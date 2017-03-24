@@ -6,31 +6,31 @@
 <table>
     <tr>
         <td><label for="cname">Complete name</label></td>
-        <td><input type="input" name="title" size="50" value="<?php echo $news_item['cname'] ?>" /></td>
+        <td><input type="input" name="cname" size="50"></td>
     </tr>
     <tr>
         <td><label for="nname">Nickname</label></td>
-        <td><textarea name="text" rows="1" cols="10"><?php echo $news_item['nname'] ?></textarea></td>
+        <td><textarea name="nname" rows="1" cols="20"></textarea></td>
     </tr>
     <tr>
         <td><label for="email">Email Address</label></td>
-        <td><input type="input" name="title" size="50" value="<?php echo $news_item['email'] ?>" /></td>
+        <td><input type="input" name="email" size="50"></td>
     </tr>
     <tr>
         <td><label for="home_address">Home Address</label></td>
-        <td><textarea name="text" rows="10" cols="40"><?php echo $news_item['home_address'] ?></textarea></td>
+        <td><textarea name="home_address" rows="10" cols="40"></textarea></td>
     </tr>
     <tr>
         <td><label for="gender">Gender</label></td>
-        <td><textarea name="text" rows="1" cols="10"><?php echo $news_item['gender'] ?></textarea></td>
+        <td><textarea name="gender" rows="1" cols="10"></textarea></td>
     </tr>
     <tr>
         <td><label for="cpnumber">Cellphone Number</label></td>
-        <td><textarea name="text" rows="1" cols="20"><?php echo $news_item['cpnumber'] ?></textarea></td>
+        <td><textarea name="cpnumber" rows="1" cols="30"></textarea></td>
     </tr>
     <tr>
         <td><label for="comments">Comments</label></td>
-        <td><textarea name="text" rows="10" cols="40"><?php echo $news_item['comments'] ?></textarea></td>
+        <td><textarea name="comments" rows="10" cols="40"></textarea></td>
     </tr>
     <tr>
         <td></td>

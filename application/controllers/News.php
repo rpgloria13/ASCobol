@@ -44,10 +44,10 @@ class News extends CI_Controller {
         $this->form_validation->set_rules('cname', 'Complete name', 'required');
         $this->form_validation->set_rules('nname', 'Nickname', 'required');
         $this->form_validation->set_rules('email', 'Email Address', 'required');
-        $this->form_validation->set_rules('home_address', 'Home Address', 'required');
+        $this->form_validation->set_rules('home_address', 'Home Address');
         $this->form_validation->set_rules('gender', 'Gender', 'required');
         $this->form_validation->set_rules('cpnumber', 'Cellphone number', 'required');
-        $this->form_validation->set_rules('comments', 'Comments', 'required');
+        $this->form_validation->set_rules('comments', 'Comments');
 
         if ($this->form_validation->run() === FALSE)
         {
@@ -83,10 +83,10 @@ class News extends CI_Controller {
         $this->form_validation->set_rules('cname', 'Complete name', 'required');
         $this->form_validation->set_rules('nname', 'Nickname', 'required');
         $this->form_validation->set_rules('email', 'Email Address', 'required');
-        $this->form_validation->set_rules('home_address', 'Home Address', 'required');
+        $this->form_validation->set_rules('home_address', 'Home Address');
         $this->form_validation->set_rules('gender', 'Gender', 'required');
         $this->form_validation->set_rules('cpnumber', 'Cellphone number', 'required');
-        $this->form_validation->set_rules('comments', 'Comments', 'required');
+        $this->form_validation->set_rules('comments', 'Comments');
 
         if ($this->form_validation->run() === FALSE)
         {
